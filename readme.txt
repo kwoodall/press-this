@@ -1,5 +1,5 @@
 === Press This ===
-Contributors: kraftbj, wordpressdotorg, woodall design, llc
+Contributors: kraftbj, wordpressdotorg, woodall design llc
 Donate link: http://wordpressfoundation.org/donate/
 Tags: post, quick-post, photo-post
 Requires at least: 4.9
