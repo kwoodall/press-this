@@ -1194,7 +1194,7 @@ class WP_Press_This_Plugin {
 	public function html() {
 		global $wp_locale;
 
-		if ( empty( $_GET['_wpnonce'] ) || ! wp_verify_nonce( $_GET['_wpnonce'], 'scan-site' ) ) {
+/*		if ( empty( $_GET['_wpnonce'] ) || ! wp_verify_nonce( $_GET['_wpnonce'], 'scan-site' ) ) {
 			foreach ( array( 'u', 's', 't', 'v', '_meta', '_links', '_images', '_embeds' ) as $key ) {
 				if ( ! empty( $_REQUEST[ $key ] ) ) {
 					?>
@@ -1207,7 +1207,7 @@ class WP_Press_This_Plugin {
 				}
 			}
 		}
-
+*/
 		$wp_version = get_bloginfo( 'version' );
 
 		// Get data, new (POST) and old (GET).
